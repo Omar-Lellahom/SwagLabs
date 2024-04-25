@@ -3,10 +3,7 @@ Feature: Je souhaite tester la deconnexion Swag Labs
 
   Background: 
     Given Je me connect a l application Swag Labs
-    When Je saisie le user name "standard_user"
-    And Je saisie le password "secret_sauce"
-    And Je clique sur le boutton login
-    And Je clique sur le menu burger
+    When Je clique sur le menu burger
 
   @logout
   Scenario: Je souhaite tester la deconnexion Swag Labs
